@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C1352FD3-AE8B-43EE-B45B-F6E0B3FBAC6D}"
 EndProject
@@ -58,6 +58,10 @@ EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNet.Security.OAuth.Vimeo", "src\AspNet.Security.OAuth.Vimeo\AspNet.Security.OAuth.Vimeo.xproj", "{AC651C2B-C879-41E2-96E0-78D3F0888246}"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNet.Security.OAuth.ArcGIS", "src\AspNet.Security.OAuth.ArcGIS\AspNet.Security.OAuth.ArcGIS.xproj", "{1302E67D-5448-407B-8B8D-709A0BA458E8}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Mvc.Client2", "samples\Mvc.Client2\Mvc.Client2.xproj", "{708A0FF9-C57F-410C-94B2-84D7856C0103}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNet.Security.OAuth.MercadoLibre", "src\AspNet.Security.OAuth.MercadoLibre\AspNet.Security.OAuth.MercadoLibre.xproj", "{639F78EC-C822-4BA2-9DD3-18D314FB7139}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -169,6 +173,14 @@ Global
 		{1302E67D-5448-407B-8B8D-709A0BA458E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1302E67D-5448-407B-8B8D-709A0BA458E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1302E67D-5448-407B-8B8D-709A0BA458E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{708A0FF9-C57F-410C-94B2-84D7856C0103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708A0FF9-C57F-410C-94B2-84D7856C0103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708A0FF9-C57F-410C-94B2-84D7856C0103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708A0FF9-C57F-410C-94B2-84D7856C0103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{639F78EC-C822-4BA2-9DD3-18D314FB7139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{639F78EC-C822-4BA2-9DD3-18D314FB7139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{639F78EC-C822-4BA2-9DD3-18D314FB7139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{639F78EC-C822-4BA2-9DD3-18D314FB7139}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -200,5 +212,7 @@ Global
 		{9AA5F2CD-3AC4-4177-A8FE-82D67A0F36AC} = {C1352FD3-AE8B-43EE-B45B-F6E0B3FBAC6D}
 		{AC651C2B-C879-41E2-96E0-78D3F0888246} = {C1352FD3-AE8B-43EE-B45B-F6E0B3FBAC6D}
 		{1302E67D-5448-407B-8B8D-709A0BA458E8} = {C1352FD3-AE8B-43EE-B45B-F6E0B3FBAC6D}
+		{708A0FF9-C57F-410C-94B2-84D7856C0103} = {BAC7067D-88FE-4385-8AC9-1A325FFBDE69}
+		{639F78EC-C822-4BA2-9DD3-18D314FB7139} = {C1352FD3-AE8B-43EE-B45B-F6E0B3FBAC6D}
 	EndGlobalSection
 EndGlobal

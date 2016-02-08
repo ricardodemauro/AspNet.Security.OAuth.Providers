@@ -46,21 +46,21 @@ namespace Mvc.Client {
                 options.LoginPath = new PathString("/signin");
             });
 
-            app.UseGoogleAuthentication(options => {
-                options.ClientId = "560027070069-37ldt4kfuohhu3m495hk2j4pjp92d382.apps.googleusercontent.com";
-                options.ClientSecret = "n2Q-GEw9RQjzcRbU3qhfTj8f";
-            });
+            //app.UseGoogleAuthentication(options => {
+            //    options.ClientId = "560027070069-37ldt4kfuohhu3m495hk2j4pjp92d382.apps.googleusercontent.com";
+            //    options.ClientSecret = "n2Q-GEw9RQjzcRbU3qhfTj8f";
+            //});
 
-            app.UseTwitterAuthentication(options => {
-                options.ConsumerKey = "6XaCTaLbMqfj6ww3zvZ5g";
-                options.ConsumerSecret = "Il2eFzGIrYhz6BWjYhVXBPQSfZuS4xoHpSSyD9PI";
-            });
+            //app.UseTwitterAuthentication(options => {
+            //    options.ConsumerKey = "6XaCTaLbMqfj6ww3zvZ5g";
+            //    options.ConsumerSecret = "Il2eFzGIrYhz6BWjYhVXBPQSfZuS4xoHpSSyD9PI";
+            //});
 
-            app.UseGitHubAuthentication(options => {
-                options.ClientId = "49e302895d8b09ea5656";
-                options.ClientSecret = "98f1bf028608901e9df91d64ee61536fe562064b";
-                options.Scope.Add("user:email");
-            });
+            //app.UseGitHubAuthentication(options => {
+            //    options.ClientId = "49e302895d8b09ea5656";
+            //    options.ClientSecret = "98f1bf028608901e9df91d64ee61536fe562064b";
+            //    options.Scope.Add("user:email");
+            //});
 
             app.UseMvc();
         }
